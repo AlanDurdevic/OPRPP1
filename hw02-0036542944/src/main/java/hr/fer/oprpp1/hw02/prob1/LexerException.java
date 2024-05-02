@@ -1,0 +1,32 @@
+package hr.fer.oprpp1.hw02.prob1;
+
+/**
+ * Exception for {@link Lexer}.
+ * @author Alan Đurđević
+ * @version 1.0.0.
+ */
+
+public class LexerException extends RuntimeException{
+
+
+	private static final long serialVersionUID = 1L;
+	
+	/**
+	 * Default constructor.
+	 * @since 1.0.0
+	 */
+
+	public LexerException() {
+		super();
+	}
+	
+	/**
+	 * Constructor with message parameter.
+	 * @param message message of exception
+	 */
+	
+	public LexerException(String message) {
+		super(message);
+	}
+	
+}
